@@ -4,8 +4,8 @@ from nltk import word_tokenize
 
 def remove_numbers(text):
     """
-    take string input and return list of sentences.
-    use nltk.sent_tokenize() to split the sentences.
+    take string input and return a clean text without numbers. 
+    Use regex to discard the numbers.
     """
     output = ''.join(c for c in text if not c.isdigit())
     return output
