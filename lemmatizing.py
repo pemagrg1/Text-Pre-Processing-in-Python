@@ -17,7 +17,7 @@ def lemmatize(text):
 
 def main():
     text = "the functions of this fan is awesome"
-    print (remove_punct(text))
+    print (lemmatize(text))
 
 if __name__ == '__main__':
     main()
