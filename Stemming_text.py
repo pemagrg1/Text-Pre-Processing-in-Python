@@ -14,7 +14,7 @@ def stemming(text):
     """
     word_tokens = nltk.word_tokenize(text)
     stemmed_word = [snowball_stemmer.stem(word) for word in word_tokens]
-    return (stemmed_word)
+    return " ".join(stemmed_word)
     
 def main():
     text = "the functions of this fan is awesome"
