@@ -13,7 +13,7 @@ def lemmatize(text):
     """
     word_tokens = nltk.word_tokenize(text)
     lemmatized_word = [wordnet_lemmatizer.lemmatize(word) for word in word_tokens]
-    return (lemmatized_word)
+    return " ".join(lemmatized_word)
 
 def main():
     text = "the functions of this fan is awesome"
