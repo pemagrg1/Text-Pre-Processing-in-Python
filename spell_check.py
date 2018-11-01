@@ -8,7 +8,7 @@ def autospell(text):
     correct the spelling of the word.
     """
     spells = [spell(w) for w in (nltk.word_tokenize(text))]
-    return spells
+    return " ".join(spells)
 
 
 def main():
