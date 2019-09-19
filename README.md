@@ -50,6 +50,6 @@ Removing punctuation from the text like ".?!" and also the symbols like "@#$" .
 #### Stop words removal
 Remove irrelevant words using nltk stop words like "is,the,a" etc from the sentences as they don't carry any information.
 #### PS:
-You can get all the above code from: GITHUB
-Once you are done with Pre-processing, you can then move to NER, clustering, word count, sentiment analysis, etc.
-All the best with your research!
+You can test all those individually from the folder "individual_python_files" <br>
+else run main.py directly <br>
+Preprocess.py is where the Preprocess class has been created for all the invidual task.
