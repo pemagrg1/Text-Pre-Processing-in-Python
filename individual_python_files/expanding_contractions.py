@@ -1,7 +1,7 @@
 # coding: utf-8
 import re
 import nltk
-from contractions import contractions_dict
+from individual_python_files.contractions import contractions_dict
 
 def expand_contractions(text, contractions_dict):
     contractions_pattern = re.compile('({})'.format('|'.join(contractions_dict.keys())),

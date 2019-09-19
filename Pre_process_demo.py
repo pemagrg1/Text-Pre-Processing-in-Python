@@ -3,17 +3,17 @@
 import all the functions from all the python files
 
 """
-from contractions import contractions_dict
-from expanding_contractions import expand_contractions
-from spell_check import autospell
-from to_lower import to_lower
-from remove_number import remove_numbers
-from remove_punctuation import remove_punct
-from remove_tags import remove_Tags
-from lemmatizing import lemmatize
-from Stemming_text import stemming
-from remove_stop_words import remove_stopwords
-from word_tokenize import word_tokenize
+from individual_python_files.contractions import contractions_dict
+from individual_python_files.expanding_contractions import expand_contractions
+from individual_python_files.spell_check import autospell
+from individual_python_files.to_lower import to_lower
+from individual_python_files.remove_number import remove_numbers
+from individual_python_files.remove_punctuation import remove_punct
+from individual_python_files.remove_tags import remove_Tags
+from individual_python_files.lemmatizing import lemmatize
+from individual_python_files.Stemming_text import stemming
+from individual_python_files.remove_stop_words import remove_stopwords
+from individual_python_files.word_tokenize import word_tokenize
 
 def pre_process(text):
     """
